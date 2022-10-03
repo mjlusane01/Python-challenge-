@@ -3,6 +3,7 @@ import csv
 store_list = list()
 ballot_dictionary = dict()
 
+# use script that can open for any computer that downloads the csv file for elections 
 csv_file = open("election_data.csv")
 data = csv.reader(csv_file)
 for row in data:
